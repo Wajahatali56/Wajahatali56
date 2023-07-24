@@ -1,18 +1,35 @@
-Hello Friends, It's me wajahat and am a software developer , maintain the development and testing phase of software's.
 
-2+ years experience in this domain and ability to have learning new skills.
 
-1+ years experience in Web development and a strong portfolio on LinkedIn you can see after.
+# Syntex :
+#     lambda argument : expression
 
-LinkedIn profile link: https://www.linkedin.com/in/wajahat-ali-b41005223
 
-Instagram profile link: 
-https://instagram.com/wajahatali4564?igshid=MzNlNGNkZWQ4Mg==
+x = lambda a : a * 10
+print(x(2))
 
-Facebook profile link:
-https://www.facebook.com/profile.php?id=100056694001239&mibextid=ZbWKwL
+# Lambda function can even take multiple arguments and return results
 
-Contact Number:
- +92 3227156144
+x = lambda a , b: a * b
+print(x(2 , 4))
 
-Email Address: wajahatali4564@gmail.com 
+# 3 arguments in lambda function
+x = lambda a , b , c: a * b + c
+print(x(2 , 4 ,2))
+
+# Why we use lambda function
+def my_fun(n):
+    return lambda a: a * n 
+my_double = my_fun(2)
+print(my_double(11))
+
+# New function for double and triple 
+
+def my_fun(n):
+    return lambda a: a * n  # for unknown function 
+my_double = my_fun(2)
+my_triple = my_fun(3)
+print(my_double(11))
+print(my_triple(11))
+
+
+
